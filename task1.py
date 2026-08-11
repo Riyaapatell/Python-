@@ -1,9 +1,12 @@
+#1
 name = "Riya"
 age = 21
 city = "Valsad"
 
 print(name, age, city)
 
+
+#2
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
@@ -11,12 +14,14 @@ sum = num1 + num2
 
 print("Sum =", sum)
 
-
+#3
 celsius = float(input("Enter temperature in(C): "))
 fahrenheit = (celsius * 9/5) + 32
 
 print("Temperature in Fahrenheit =", fahrenheit)
 
+
+#4
 name = input("Enter your name: ")
 
 print(name.upper())
@@ -28,6 +33,8 @@ age = current - birth
 
 print("Your age is:", age)
 
+
+#5
 a = input("Enter value of a: ")
 b = input("Enter value of b: ")
 
@@ -44,6 +51,8 @@ print("a =", a)
 print("b =", b)
 
 
+
+#6
 length = float(input("Enter length: "))
 width = float(input("Enter width: "))
 
@@ -52,6 +61,8 @@ area = length * width
 print("Area of rectangle =", area)
 
 
+
+#7
 number = float(input("Enter a number: "))
 
 if number > 0:
@@ -61,6 +72,8 @@ elif number < 0:
 else:
     print("The number is zero.")
 
+
+#8
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
