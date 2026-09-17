@@ -22,7 +22,7 @@ print(reverse(b))
 
 #3 find factorial of a funcion 
 def func(a):
-    fact = 1
+    fact = 1    
     if a < 1:
         return False
     for i in range(1,a+1):
